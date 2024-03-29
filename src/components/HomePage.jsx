@@ -6,8 +6,8 @@ import Container from 'react-bootstrap/Container';
 function HomePage() {
   return (
       <>
-      <Container >
       <Sidebar />
+      <Container fluid >
           <MainContentHome />
           <Player />
       </Container>
